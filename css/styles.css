@@ -213,3 +213,52 @@ hr {
 .mylogo {
   height: 50px
 }
+
+/* Projects CSS */
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.project-title {
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.project-bubble {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    background-color: #545454;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #66BFBF;
+    margin: auto;
+}
+
+.row.project-row {
+    padding-top: 8%;
+}
+
+.project-description {
+    position: relative;
+    margin: auto 10%;
+    vertical-align: middle;
+    text-align: left;
+    white-space: pre-wrap;
+    margin-top: 110px;
+}
+
+.projects-title {
+  padding-top: 110px;
+}
+
+#projects {
+  background-color: #E4F9F5;
+}
